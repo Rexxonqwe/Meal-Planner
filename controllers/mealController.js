@@ -40,19 +40,16 @@ exports.getAllMeals = async (req, res) => {
   }
 };
 
+// This can be used to update the meal's fooditmes.
 exports.updateMeal = async (req, res) => {
   try {
     const id = req.params.id;
     const updatedMeal = await Meal.findByIdAndUpdate(
-      id,
-      {
-        name: req.body.name,
-        category: req.body.category,
-        foodItems: req.body.foodItems,
-      },
+      { _id: id },
+      { $push: { foodItems: req.body.foodItems } },
       {
         new: true,
-        runValidators: true,
+        // runValidators: true,
       }
     );
     res.status(200).json({

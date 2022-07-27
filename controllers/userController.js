@@ -39,6 +39,7 @@ exports.getAllUsers = async (req, res) => {
   }
 };
 
+// THIS WILL CREATE AND UPDATE MEAL PLAN.
 exports.createMealPlan = async (req, res) => {
   try {
     const userId = req.params.userId;
