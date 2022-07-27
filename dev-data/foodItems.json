@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Milk",
+    "calories": 65,
+    "protein": 3.3,
+    "carb": 5,
+    "fat": 4,
+    "acceptedUnits": "liter",
+    "itemWeight": 1000
+  },
+  {
+    "name": "Cream",
+    "calories": 210,
+    "protein": 2,
+    "carb": 3,
+    "fat": 21,
+    "acceptedUnits": "g",
+    "itemWeight": 100
+  },
+  {
+    "name": "Cheese",
+    "calories": 310,
+    "protein": 22,
+    "fat": 25,
+    "acceptedUnits": "g",
+    "itemWeight": 100
+  },
+  {
+    "name": "Chocolate Biscuits",
+    "calories": 520,
+    "protein": 6,
+    "carb": 67,
+    "fat": 28,
+    "acceptedUnits": "item",
+    "itemWeight": 40
+  },
+  {
+    "name": "Rice",
+    "calories": 120,
+    "protein": 2,
+    "carb": 50,
+    "acceptedUnits": "kg",
+    "itemWeight": 3
+  },
+  {
+    "name": "Bananas",
+    "calories": 80,
+    "protein": 1,
+    "carb": 12,
+    "acceptedUnits": "item",
+    "itemWeight": 118
+  }
+]
